@@ -40,10 +40,10 @@ you should open the index.html file and Press Create to have your first Figure o
 <br>
 
 ## Future improvements
-- [ ] Further beautify the interface
-- [ ] Add more evidence to the array
+- [x] Further beautify the interface
+- [x] Add more evidence to the array
 - [ ] Adjust limit number of certain evidence (eg. Morgue)
-- [ ] Make the project responsive to mobile or tablet display
+- [x] Make the project responsive to mobile or tablet display
 <br>
 
 ## License information
