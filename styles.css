@@ -14,3 +14,19 @@
     background-size: 15px 4px;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: fff;
+  font-size: 0.75rem;
+}
+
+a {
+    color:bisque;
+}
+a:hover {
+    color:fff;
+}

@@ -4,7 +4,7 @@ const evidenceArray = [
         'images/blood.png', 'images/broken-clock.png', 
         'images/cigarette-butt.png', 'images/evidence.png',
         'images/fingerprint.png', 'images/suspect.png',
-        'images/morgue.png', 'images/hair.png',
+        'images/morgue.png', 'images/hair.png','images/footprints.png'
     ];
     var direction = 0;
     const evidenceList = []; // This array holds all the evidence
