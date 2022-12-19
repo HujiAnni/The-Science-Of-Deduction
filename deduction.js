@@ -1,10 +1,10 @@
 var pos = 0;
 const evidenceArray = [
-    'images/analysis.png', 'images/knife.png', 
-        'images/blood.png', 'images/broken-clock.png', 
-        'images/cigarette-butt.png', 'images/evidence.png',
-        'images/fingerprint.png', 'images/suspect.png',
-        'images/morgue.png', 'images/hair.png',
+    './images/analysis.png', './images/knife.png', 
+        './images/blood.png', './images/broken-clock.png', 
+        './images/cigarette-butt.png', './images/evidence.png',
+        './images/fingerprint.png', './images/suspect.png',
+        './images/morgue.png', './images/hair.png',
     ];
     var direction = 0;
     const evidenceList = []; // This array holds all the evidence

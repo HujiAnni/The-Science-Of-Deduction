@@ -3,7 +3,7 @@
 <img src="/images/sherlock.jpg">
 
 
-A fun Factory Project, inspired by Sherlock Holmes's "The Science of Deduction".
+A fun Factory Project, originated from PacMen Factory Project, and inspired by Sherlock Holmes's "The Science of Deduction". 
 
 Languages: Javascript, CSS, and HTML 
 
@@ -15,7 +15,7 @@ This Project is an Evidence Factory, which mimic the three steps of detective wo
 <li>Eliminate the impossible and conclusion</li>
 </ol>
 
-*"I observe everything. From what I observe, I deduce everything. When I’ve eliminated the impossible, whatever remains, no matter how mad it might seem, must be the truth." -- Sherlock Holmes*
+### *"I observe everything. From what I observe, I deduce everything. When I’ve eliminated the impossible, whatever remains, no matter how mad it might seem, must be the truth." -- Sherlock Holmes*
 
 Press the "Gather Evidence" button to collect as many evidences as you want you find necessary.
 Then, press "Start Deduction" to see them moving all over your screen.
@@ -26,7 +26,7 @@ Feel free to gather more evidence and change their moving speed by re-clicking "
 ## Demo
 
 ## How to Run
-You can access this Project by clicking on this <a href="https://hujianni.github.io/The-Science-Of-Deduction/">link</a>. Press "Gather Evidence" to add at least one evidence on the screen, then you can either continue to create more, or press "Start Deduction" to 
+You can access this Project by clicking on this <a href="https://hujianni.github.io/The-Science-Of-Deduction/" target="_blank">link</a>. Press "Gather Evidence" to add at least one evidence on the screen, then you can either continue to create more, or press "Start Deduction" to 
 you should open the index.html file and Press Create to have your first Figure on screen, afterwards, you can create as many as you want and make them move randomly accross the screen by pressing the Start Game Button.
 
 ## Future improvements
@@ -36,4 +36,4 @@ you should open the index.html file and Press Create to have your first Figure o
  Make the project responsive to mobile or tablet display
 
 ## License information
-<a href="https://choosealicense.com/licenses/mit/">MIT</a>
+<a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a>
