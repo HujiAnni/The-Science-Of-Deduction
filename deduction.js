@@ -8,11 +8,11 @@ const evidenceArray = [
     ];
     var direction = 0;
     const evidenceList = []; // This array holds all the evidence
-
+    var index = 0;
     function setToRandom(scale) {
         return {
-            x: Math.random() * scale + 1,
-            y: Math.random() * scale + 1
+            x: Math.random() * scale,
+            y: Math.random() * scale
         }
     }
     // Factory to gather an evidence at a random position with random velocity
@@ -27,14 +27,17 @@ const evidenceArray = [
         newimg.style.position = 'absolute';
         newimg.src = evidenceArray[num];
         newimg.width = 100;
-        //
+        newimg.setAttribute("id",`${index}`);
+        newimg.setAttribute("onclick","remove(this)");
+        index++;
         // set position here 
         newimg.style.left = position.x;
-        newimg.style.top = position.y;
+        newimg.style.top = position.y + 50;
 
         // add new Child image to game
-        newimg.style.zIndex = "-1";
+        newimg.style.zIndex = "0";
         game.appendChild(newimg);
+        
         // return details in an object
         return {
             position,
@@ -76,5 +79,13 @@ const evidenceArray = [
     }
 
     function makeOne() {
-        evidenceList.push(makeEvid()); // add a new PacMan
+        evidenceList.push(makeEvid()); // add a new evidence
     }
+
+
+ function remove(e) {
+    e.remove();
+ }
+    
+
+    
