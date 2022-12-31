@@ -1,6 +1,6 @@
 # The Science of Deduction
 
-<img src="/images/sherlock.jpg">
+<img src="/images/sherlock.jpg" alt="Intro Image">
 
 
 A fun Factory Project, originated from PacMen Factory Project, and inspired by Sherlock Holmes's "The Science of Deduction". 
@@ -29,6 +29,7 @@ Feel free to gather more evidence and change their moving speed by re-clicking "
 
 
 ## Demo
+<img src="/images/demo-theScienceOfDeduction.gif" alt="Demo Gif">
 
 
 <br>
